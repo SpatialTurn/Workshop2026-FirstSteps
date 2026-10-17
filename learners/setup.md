@@ -2,7 +2,7 @@
 title: Setup
 ---
 
-Please complete the following steps **before the workshop begins**. This should take about 15–20 minutes. If you run into trouble, we will have helpers available on the morning of Day 1.
+Please complete the following steps **before the workshop begins**. This should take about 15 to 20 minutes. If you run into trouble, we will have helpers available on the morning of Day 1.
 
 ---
 
@@ -25,7 +25,7 @@ Please complete the following steps **before the workshop begins**. This should 
 | 3:00 PM | **Breakout 3a:** Satellite imagery analysis (WALC 2121) |
 | | **Breakout 3b:** Analyzing Census data (WALC 2127) |
 | 4:30 PM | Group discussion (WALC 2127) |
-| 6:00 PM | Group dinner — Walt's Pub & Grill, 1050 Kalberer Rd, West Lafayette |
+| 6:00 PM | Group dinner: Walt's Pub & Grill, 1050 Kalberer Rd, West Lafayette |
 
 ### Day 2
 
@@ -53,10 +53,10 @@ Send in a request for access, preferably, before showing up to the workshop.
 
 You will need accounts on the following platforms (all free):
 
-- **Google Account** — for [Google Colab](https://colab.research.google.com) (Python notebooks)
-- **GitHub Account** — for accessing and sharing workshop materials → [Sign up here](https://github.com/join)
-- **USGS EarthExplorer Account** — for downloading satellite imagery and elevation data → [Register here](https://ers.cr.usgs.gov/register)
-- **Copernicus Data Space Account** — for accessing Sentinel satellite data → [Register here](https://dataspace.copernicus.eu)
+- **Google Account**: for [Google Colab](https://colab.research.google.com) (Python notebooks)
+- **GitHub Account**: for accessing and sharing workshop materials → [Sign up here](https://github.com/join)
+- **USGS EarthExplorer Account**: for downloading satellite imagery and elevation data → [Register here](https://ers.cr.usgs.gov/register)
+- **Copernicus Data Space Account**: for accessing Sentinel satellite data → [Register here](https://dataspace.copernicus.eu)
 - **Census API** - for accessing census data through python workflows → [Get One here](https://api.census.gov/data/key_signup.html)
 
 ::::::::::::::::::::::::::::::::::::: callout
@@ -101,7 +101,7 @@ After installing, open QGIS Desktop to confirm it launches correctly.
 
 ### Google Colab (No Installation Needed)
 
-We will use [Google Colab](https://colab.research.google.com) for all Python notebook activities. Colab runs in your browser — there is nothing to install. Just make sure you can sign in with your Google account and open a new notebook.
+We will use [Google Colab](https://colab.research.google.com) for all Python notebook activities. Colab runs in your browser: there is nothing to install. Just make sure you can sign in with your Google account and open a new notebook.
 
 The Python libraries we will use (pandas, NumPy, matplotlib, GeoPandas) are pre-installed in Colab.
 
