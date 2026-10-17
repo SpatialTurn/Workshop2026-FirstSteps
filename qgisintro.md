@@ -35,7 +35,7 @@ exercises: 15 # exercise time in minutes
 ::::::::::::::::::::::::::::::::::::: callout
 
 ### Why QGIS?
-QGIS is widely used in academia, industry, and government — and it is completely free. It supports a wide range of vector and raster formats, connects to spatial databases, and has a rich plugin ecosystem.
+QGIS is widely used in academia, industry, and government, and it is completely free. It supports a wide range of vector and raster formats, connects to spatial databases, and has a rich plugin ecosystem.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -102,11 +102,11 @@ If a panel is missing, you can enable it via **View → Panels**.
 
 QGIS supports many spatial data formats. The most common are:
 
-- **Shapefiles** (`.shp`) — a widely used vector format
-- **GeoJSON** (`.geojson`) — lightweight, text-based vector format
-- **GeoPackage** (`.gpkg`) — a modern, self-contained format (recommended)
-- **CSV with coordinates** — tabular data with latitude/longitude columns
-- **Raster files** (`.tif`, `.img`) — gridded data such as satellite imagery or elevation models
+- **Shapefiles** (`.shp`): a widely used vector format
+- **GeoJSON** (`.geojson`): lightweight, text-based vector format
+- **GeoPackage** (`.gpkg`): a modern, self-contained format (recommended)
+- **CSV with coordinates**: tabular data with latitude/longitude columns
+- **Raster files** (`.tif`, `.img`): gridded data such as satellite imagery or elevation models
 
 ### Adding a Vector Layer
 
@@ -121,7 +121,7 @@ The layer will appear in the **Layers Panel** and display on the **Map Canvas**.
 1. Go to **Layer → Add Layer → Add Delimited Text Layer**
 2. Select your `.csv` file
 3. Set the **X field** (longitude) and **Y field** (latitude)
-4. Choose the appropriate coordinate reference system (CRS) — `EPSG:4326` is common for lat/lon data
+4. Choose the appropriate coordinate reference system (CRS): `EPSG:4326` is common for lat/lon data
 5. Click **Add**
 
 :::::::::::::::::::::::::::::::::::: challenge
@@ -146,9 +146,9 @@ Once your data is loaded, you can change how it looks on the map.
 1. Right-click the layer in the **Layers Panel**
 2. Select **Properties → Symbology**
 3. Choose a style type:
-   - **Single Symbol** — one color for all features
-   - **Categorized** — different colors by category (e.g., land use type)
-   - **Graduated** — a color ramp based on numeric values (e.g., population density)
+   - **Single Symbol**: one color for all features
+   - **Categorized**: different colors by category (e.g., land use type)
+   - **Graduated**: a color ramp based on numeric values (e.g., population density)
 4. Adjust colors, borders, and opacity as needed
 5. Click **Apply**, then **OK**
 
@@ -201,7 +201,7 @@ QGIS includes a **Print Layout** tool for creating publication-ready maps.
 ::::::::::::::::::::::::::::::::::::: callout
 
 ### Tip
-For the best print quality, export as PDF. For web use, PNG at 150–300 DPI works well.
+For the best print quality, export as PDF. For web use, PNG at 150 to 300 DPI works well.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -220,7 +220,7 @@ For the best print quality, export as PDF. For web use, PNG at 150–300 DPI wor
 
 - QGIS is a free, open-source GIS application suitable for mapping, visualization, and spatial analysis.
 - Spatial data can be loaded from shapefiles, GeoJSON, GeoPackage, CSV, and raster formats.
-- The Symbology panel controls how data appears on the map — use categorized or graduated styles to highlight patterns.
+- The Symbology panel controls how data appears on the map: use categorized or graduated styles to highlight patterns.
 - The Print Layout tool lets you compose and export professional maps with titles, legends, and scale bars.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
