@@ -43,19 +43,19 @@ We will be using [Google Colab](https://colab.research.google.com) for all noteb
 
 Covers basic syntax, printing, and simple operations.
 
-<a href="https://colab.research.google.com/github/SpatialTurn/intromoduletest/blob/main/notebooks/Introduction_Python.ipynb" target="_blank">Open Exercise 1 in Colab</a>
+<a href="https://colab.research.google.com/github/SpatialTurn/Workshop2026-FirstSteps/blob/main/notebooks/Introduction_Python.ipynb" target="_blank">Open Exercise 1 in Colab</a>
 
 ## Exercise 2: Variable Handling
 
 Covers how data is stored, updated, and reused across cells.
 
-<a href="https://colab.research.google.com/github/SpatialTurn/intromoduletest/blob/main/notebooks/Variables_Intro.ipynb" target="_blank">Open Exercise 2 in Colab</a>
+<a href="https://colab.research.google.com/github/SpatialTurn/Workshop2026-FirstSteps/blob/main/notebooks/Variables_Intro.ipynb" target="_blank">Open Exercise 2 in Colab</a>
 
 ## Exercise 3: Python Plotting
 
 Covers creating basic charts with matplotlib.
 
-<a href="https://colab.research.google.com/github/SpatialTurn/intromoduletest/blob/main/notebooks/Intro_Ploting.ipynb" target="_blank">Open Exercise 3 in Colab</a>
+<a href="https://colab.research.google.com/github/SpatialTurn/Workshop2026-FirstSteps/blob/main/notebooks/Intro_Ploting.ipynb" target="_blank">Open Exercise 3 in Colab</a>
 
 ---
 
