@@ -14,4 +14,8 @@ It is kept as it was taught at the workshop (Day 1 opening module, for all parti
 | `episodes/qgisintro.md` | Quantum GIS Guide |
 | `episodes/introduction.md` | Python Notebook Refresher |
 
+The three Colab exercises used in the Python refresher are in `notebooks/`: `Introduction_Python.ipynb`,
+`Variables_Intro.ipynb` and `Intro_Ploting.ipynb` (moved here from the retired DataCollection-Notebooks
+repository in October 2026).
+
 Contact: ilindsay@purdue.edu
