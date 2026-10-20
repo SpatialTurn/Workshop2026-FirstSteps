@@ -487,7 +487,7 @@ Add reference-style links below as needed.
 -->
 </section></section><section id="aio-qgisintro"><p>Content from <a href="qgisintro.html">Quantum GIS Guide</a></p>
 <hr>
-<p>Last updated on 2026-10-17 |
+<p>Last updated on 2026-10-20 |
 
         <a href="https://github.com/SpatialTurn/Workshop2026-FirstSteps/edit/main/episodes/qgisintro.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 45 minutes</p>
@@ -530,8 +530,8 @@ Add reference-style links below as needed.
 <section><h2 class="section-heading" id="what-is-qgis">What is QGIS?<a class="anchor" aria-label="anchor" href="#what-is-qgis"></a>
 </h2>
 <hr class="half-width">
-<p><strong>QGIS</strong> (Quantum GIS) is a free, open-source Geographic
-Information System (GIS) used to:</p>
+<p><strong>QGIS</strong> (originally called Quantum GIS) is a free,
+open-source Geographic Information System (GIS) used to:</p>
 <ul>
 <li>Visualize spatial data</li>
 <li>Analyze geographic patterns</li>
@@ -703,10 +703,12 @@ field</strong> (latitude)</li>
 <h3 class="callout-title">Exercise 1: Load and Explore a Dataset</h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
-<li>Download a sample shapefile from a public source (your instructor
-will provide one, or try <a href="https://www.naturalearthdata.com/downloads/" class="external-link">Natural
-Earth</a>)</li>
-<li>Open QGIS and add the shapefile as a vector layer</li>
+<li>Download a sample shapefile: for example the <a href="https://raw.githubusercontent.com/SpatialTurn/Workshop2026-Session1A/main/data/airports.zip" class="external-link">Alaska
+airports zip</a> used in Session 1A, or a dataset from <a href="https://www.naturalearthdata.com/downloads/" class="external-link">Natural Earth</a>.
+Unzip it first.</li>
+<li>Open QGIS and add the shapefile as a vector layer, then right-click
+it and choose <strong>Zoom to Layer</strong>
+</li>
 <li>Right-click the layer in the Layers Panel and select <strong>Open
 Attribute Table</strong>
 </li>
@@ -859,9 +861,13 @@ SVG</strong>
 <hr class="half-width">
 <ul>
 <li>
-<strong>Layer not displaying?</strong> Check that the CRS matches
-your other layers. Right-click the layer → <strong>Set CRS → Set Layer
-CRS</strong>.</li>
+<strong>Layer not displaying?</strong> First right-click the layer →
+<strong>Zoom to Layer</strong>, and check that it sits above any basemap
+in the Layers Panel. If it still appears in the wrong place, look at its
+CRS under <strong>Properties → Information</strong>. Only use
+<strong>Set CRS → Set Layer CRS</strong> when the CRS is missing or
+wrong and you know the correct one: it changes the label, not the
+coordinates.</li>
 <li>
 <strong>QGIS running slowly?</strong> Large raster files or complex
 vector layers can slow things down. Try zooming into a smaller area or
