@@ -26,7 +26,7 @@ exercises: 15 # exercise time in minutes
 
 ## What is QGIS?
 
-**QGIS** (Quantum GIS) is a free, open-source Geographic Information System (GIS) used to:
+**QGIS** (originally called Quantum GIS) is a free, open-source Geographic Information System (GIS) used to:
 
 - Visualize spatial data
 - Analyze geographic patterns
@@ -128,8 +128,8 @@ The layer will appear in the **Layers Panel** and display on the **Map Canvas**.
 
 ### Exercise 1: Load and Explore a Dataset
 
-1. Download a sample shapefile from a public source (your instructor will provide one, or try [Natural Earth](https://www.naturalearthdata.com/downloads/))
-2. Open QGIS and add the shapefile as a vector layer
+1. Download a sample shapefile: for example the [Alaska airports zip](https://raw.githubusercontent.com/SpatialTurn/Workshop2026-Session1A/main/data/airports.zip) used in Session 1A, or a dataset from [Natural Earth](https://www.naturalearthdata.com/downloads/). Unzip it first.
+2. Open QGIS and add the shapefile as a vector layer, then right-click it and choose **Zoom to Layer**
 3. Right-click the layer in the Layers Panel and select **Open Attribute Table**
 4. Explore the data: How many features are there? What columns are available?
 
@@ -209,7 +209,7 @@ For the best print quality, export as PDF. For web use, PNG at 150 to 300 DPI wo
 
 ## Troubleshooting
 
-- **Layer not displaying?** Check that the CRS matches your other layers. Right-click the layer → **Set CRS → Set Layer CRS**.
+- **Layer not displaying?** First right-click the layer → **Zoom to Layer**, and check that it sits above any basemap in the Layers Panel. If it still appears in the wrong place, look at its CRS under **Properties → Information**. Only use **Set CRS → Set Layer CRS** when the CRS is missing or wrong and you know the correct one: it changes the label, not the coordinates.
 - **QGIS running slowly?** Large raster files or complex vector layers can slow things down. Try zooming into a smaller area or simplifying your data.
 - **Plugin not working?** Go to **Plugins → Manage and Install Plugins** and check for updates.
 - **Need help?** Raise your hand during the workshop.
